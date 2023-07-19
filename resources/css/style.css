@@ -1,0 +1,221 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: bold;
+    
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.grifologo{
+    width: 200px;
+}
+
+.cont{
+    /* position: relative; */
+    text-align: center;
+}
+
+.butcar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+  
+.text-container {
+    /* position: absolute; */
+    top: 50%;
+    left: 20;
+    width: 100%;
+    transform: translateY(-50%);
+}
+  
+.centered-text {
+    text-align: left;
+}
+
+.whiteshadow{
+    text-shadow: 2px 2px 4px whitesmoke;
+}
+
+.blackshadow{
+    text-shadow: 2px 2px 4px black;
+}
+
+/* SECONDO CAROSELLO */
+
+
+
+
+/* 3 IMMAGINI DIGITAL LEARNING GAMIFICATION  */
+
+.contimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+
+.contimg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1{
+  color:whitesmoke;
+  font-weight:bold;
+  font-size:50px;
+}
+
+/* AZIENDA */
+
+.azienda{
+  color:rgb(183, 35, 43);
+  font-weight:bold;
+  font-size:50px;
+
+
+}
+
+.aziendadescr{
+  font-weight: 500px;
+  font-size:35px;
+  text-transform: none;
+  margin-left: 50px;
+
+}
+
+
+
+/* NUMERI INCREMENTALI */
+
+h3{
+  color:whitesmoke;
+  font-weight:bold;
+  font-size:23px;
+  display: flex;
+  justify-content: center;
+}
+
+.contnum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* PORTFOLIO */
+
+
+.contimg2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  
+}
+
+.contimg2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* BLOG */
+
+.card-title{
+font-weight: 800;
+
+}
+
+.btncost{
+  border: 3px solid rgb(183, 35, 43);
+  border-radius: 10%;
+  background-color: azure;
+  font-size: small;
+  text-transform: uppercase;
+  color: rgb(183, 35, 43);
+  /* display: flex;
+  justify-content: center;
+  max-width: 50%; */
+}
+
+/* BOTTONE PER SAPERNE DI PIù BLOG */
+
+.link{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.link span{
+   position: relative;
+  z-index: 2;  
+}
+
+.link:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background:  rgb(183, 35, 43);;
+  transition: all .35s;
+}
+
+.link:hover{
+  color: #fff;
+  border: #fff;
+}
+
+.link:hover:after{
+  width: 100%;
+}
+
+
+/* FOOTER */
+/* footer{
+  padding-top: 83px;
+  padding-bottom: 55px;
+  padding-left: 25px;
+  padding-right: 25px;
+} */
+
+.bg-footer{
+  background-color: #16171D;
+}
+
+.soges{
+  width: 270px;
+  margin-top: 40px;
+}
