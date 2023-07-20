@@ -77,18 +77,38 @@
             <img class="my-3 ms-3" src="/media/ita.png" alt="" srcset="">
             <img class="my-3 mx-3" src="/media/en.png" alt="" srcset="">
         </li>
+        
 
-        <li class="d-flex">
+        {{-- SOCIAL --}}
+        
+        <div>          
+          <a href="" style="text-decoration: none;">
+            <i class=" my-3 ms-3 fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="" style="text-decoration: none;">
+            <i class="my-3 ms-3 fa-brands fa-twitter"></i>
+          </a>
+          <a href="" style="text-decoration: none;">
+            <i class="my-3 ms-3 fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="" style="text-decoration: none;">
+            <i class="my-3 ms-3 fa-brands fa-instagram"></i>
+          </a>
+         </div>
+
+        {{-- <ul> --}}
+
+        {{-- <li class="d-flex"> --}}
             {{-- <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> --}}
-            <i class="fa-brands fa-facebook-f my-3 mx-3" style="color: black;">
+            {{-- <i class="fa-brands fa-facebook-f my-3 mx-3" style="color: black;"> --}}
                 {{-- <a href="https://www.facebook.com/Grifomultimedia/"></a>     --}}
-            </i>
-            <i class="fa-brands fa-twitter" style="color: red;"></i>
+            {{-- </i> --}}
+            {{-- <i class="fa-brands fa-twitter" style="color: red;"></i>
             <i class="fa-brands fa-linkedin-in" style="color: black;"></i>
             <i class="fa-brands fa-instagram" style="color: black;"></i>
         </li>
 
-        </ul>
+        </ul> --}}
        
       </div>
     </div>
