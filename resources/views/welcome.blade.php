@@ -241,15 +241,21 @@
         <div class="col-12 col-md-4 d-flex justify-content-center contnum my-3">
           
           <img src="/media/counter1.png" alt="" srcset="">
-          <h3 class="mt-5" id="txt-spaz">Anni nel digital learning & gamification</h3>
+          <h3 class="mt-5" id="txt-spaz">
+            <span class="increment-numbers d-block" id="first-span"> 0 </span>
+          Anni nel digital learning & gamification</h3>
         </div>
           <div class="col-12 col-md-4 d-flex justify-content-center contnum my-3">
           <img src="/media/counter2.png" alt="" srcset="">
-          <h3 class="mt-5" id="txt-spaz">Ore di formazione erogate</h3>
+          <h3 class="mt-5" id="txt-spaz">
+            <span class="increment-numbers d-block" id="second-span"> 0 </span>
+              Ore di formazione erogate</h3>
           </div>
           <div class="col-12 col-md-4 d-flex justify-content-center contnum my-3">
           <img src="/media/counter3.png" alt="" srcset="">
-          <h3 class="mt-5" id="txt-spaz">Persone formate</h3>
+          <h3 class="mt-5" id="txt-spaz">
+            <span class="increment-numbers d-block" id="third-span"> 0 </span>
+          Persone formate</h3>
           </div>
         </div>
       </div>
