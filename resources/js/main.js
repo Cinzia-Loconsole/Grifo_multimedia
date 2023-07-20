@@ -16,7 +16,7 @@ function createInterval(finalNumber, element){
 
     let interval = setInterval( ()=>{
 
-        counter++
+        counter+= Math.ceil(finalNumber / 100); 
 
         if(counter < finalNumber){
 
@@ -26,12 +26,13 @@ function createInterval(finalNumber, element){
 
         } else {
 
+            element.innerHTML = finalNumber;
             clearInterval(interval);
 
         }
 
 
-    }, 1 )
+    }, 10 )
 
 }
 
