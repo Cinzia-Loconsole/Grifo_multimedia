@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg " id="mainNav">
+    <div class="container-fluid" id="containerNav">
       <a class="navbar-brand" href="#">
-        <img src="/media/grifo-logo.png" class="grifologo ms-4 my-2 mx-4" alt="logo grifomultimedia" srcset="">
+        <img src="/media/grifo-logo.png" class="grifologo my-2 mx-4" alt="logo grifomultimedia" srcset="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,16 +82,16 @@
         {{-- SOCIAL --}}
         
         <div>          
-          <a href="" style="text-decoration: none;">
+          <a href="" style="text-decoration: none; color:#ac4747db;">
             <i class=" my-3 ms-3 fa-brands fa-facebook-f"></i>
           </a>
-          <a href="" style="text-decoration: none;">
+          <a href="" style="text-decoration: none; color:#ac4747db;">
             <i class="my-3 ms-3 fa-brands fa-twitter"></i>
           </a>
-          <a href="" style="text-decoration: none;">
+          <a href="" style="text-decoration: none; color:#ac4747db;">
             <i class="my-3 ms-3 fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="" style="text-decoration: none;">
+          <a href="" style="text-decoration: none; color:#ac4747db;">
             <i class="my-3 ms-3 fa-brands fa-instagram"></i>
           </a>
          </div>
@@ -112,4 +112,7 @@
        
       </div>
     </div>
+
+
+
   </nav>

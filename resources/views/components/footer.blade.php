@@ -30,10 +30,10 @@
               <i class="my-3 ms-3 fa-brands fa-twitter fa-2x text-white"></i>
             </a>
             <a href="" style="text-decoration: none;">
-              <i class="my-3 ms-3 fa-brands fa-linkedin-in fa-2x text-white"></i>
+              <i class="my-3 ms-3 fa-brands fa-linkedin-in text-white"></i>
             </a>
             <a href="" style="text-decoration: none;">
-              <i class="my-3 ms-3 fa-brands fa-instagram fa-2x text-white"></i>
+              <i class="my-3 ms-3 fa-brands fa-instagram text-white"></i>
             </a>
            </div>
   

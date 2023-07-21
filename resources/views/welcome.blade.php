@@ -24,9 +24,7 @@
               <div class="carousel-item active cont">
                   <img src="/media/slide1.jpg" class="d-block " alt="...">
                   <div class="carousel-caption text-container" data-aos="zoom-out">
-                      <h3 
-                      class="centered-text whiteshadow" style=""
-                      >
+                      <h3 class="centered-text whiteshadow" style="">
                         Grifo multimedia e Udemy:
                       </h3>
                       <h3 class="centered-text blackshadow" style="color:whitesmoke;">
@@ -40,7 +38,8 @@
               <div class="carousel-item cont">
                   <img src="/media/slide2.jpg" class="d-block " alt="...">
                   <div class="carousel-caption text-container data-aos="zoom-out"">
-                      <h3 class="centered-text whiteshadow"> Reskilling </h3> <h3 class="centered-text blackshadow" style="color:whitesmoke;">& upskilling del personale </h3>
+                      <h3 class="centered-text whiteshadow"> Reskilling </h3>
+                      <h3 class="centered-text blackshadow" style="color:whitesmoke;">& upskilling del personale </h3>
 
                       <button class="btn1">SCOPRI IL CASE STUDY</button>
                   </div>
@@ -49,8 +48,8 @@
               <div class="carousel-item cont">
                   <img src="/media/slide3.jpg" class="d-block " alt="...">
                   <div class="carousel-caption text-container">
-                      <h3 class="centered-text blackshadow" style="color:whitesmoke;">Stimolare l'engagement con la</h3>
-                        <h3 class="centered-text whiteshadow">Gamification</h3>
+                      <h3 class="centered-text blackshadow" style="color:whitesmoke">Stimolare l'engagement con la</h3>
+                      <h3 class="centered-text whiteshadow">Gamification</h3>
 
                       <button class="btn1">SCOPRI</button>
 
@@ -126,45 +125,35 @@
 
     {{-- FINE CAROSELLO --}}
 
-    {{-- CAROSELLO 2 --}}
 
-    <div class="container-fluid">
+    {{-- CAROSELLO 2 COLLAB --}}
+
+    <div class="container">
       <div class="row ">
-        <div class="col-12 col-md-4 ">
-
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="col-12 col-md-4 ">
-                <div class="carousel-item active">
-                  <img src="/media/chimica-dagostino.png" class="d-block" alt="...">
-                </div>
-              </div>
-              <div class="col-12 col-md-4 ">
-                <div class="carousel-item">
-                  <img src="/media/lutech.jpg" class="d-block" alt="...">
-                </div>
-              </div>
-              <div class="col-12 col-md-4 ">
-                <div class="carousel-item">
-                  <img src="/media/nhood.jpg" class="d-block" alt="...">
-              </div>
-              </div>
+        <div class="col-12 ">
+          <div class="carousel carosello">
+            <div class="images">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2020/06/logo-myliamob.png" class="imagn" alt="slide 1">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2020/05/logo-credit-agricole.png" class="imagn" alt="slide 2">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2020/02/heineken.jpg" class="imagn" alt="slide 3">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/12/liu-jo.jpg" class="imagn" alt="slide 4">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/zurich.jpg" class="imagn" alt="slide 5">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/gkn.jpg" class="imagn" alt="slide 6">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/gazzetta1.png" class="imagn" alt="slide 7">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/efsa.jpg" class="imagn" alt="slide 8">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/dasaragister.png" class="imagn" alt="slide 9">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/carismilogo.jpg" class="imagn" alt="slide 10">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2022/04/mc3innovation.png" class="imagn" alt="slide 11">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2022/04/proxima-informatica.png" class="imagn" alt="slide 12">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2022/04/logo_springer_healthcare.jpg" class="imagn" alt="slide 13">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2022/11/anci.jpg" class="imagn" alt="slide 14">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/agos.jpg" class="imagn" alt="slide 15">
+              <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/10/prink.jpg" class="imagn" alt="" srcset="slide 16">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-          
-
+          </div>
         </div>
       </div>
-
-    </div>
 
 
 
@@ -264,7 +253,7 @@
 
       {{-- PORTFOLIO --}}
 
-      <div class="container-fluid " style="background-color:rgba(250, 235, 215, 0.163);">
+      <div class="container-fluid" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
         <div class="row ">
           <div class="col-12">
             <h2 class="text-center azienda mt-3">Portfolio</h2>
@@ -273,24 +262,48 @@
       
     
           <div class="container-fluid" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
-            <div class="row ">
-              <div class="col-12 col-md-4 d-flex contimg2 porto">
-                <img src="/media/port1.jpg" alt="">
+            <div class="row">
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto">
+                <img class="imgport" src="/media/port1.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">"Che sindaco sei" <br> Il game di ANCI digitale</span>
+                </div>
               </div>
-              <div class="col-12 col-md-4 d-flex contimg2 porto ">
-                <img src="/media/port2.jpg" alt="">
+
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
+                <img class="imgport" src="/media/port2.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">Gamification & Recruiting</span>
+                </div>
               </div>
-              <div class="col-12 col-md-4 d-flex contimg2 porto ">
-                <img src="/media/port3.jpg" alt="">
+
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
+                <img class="imgport" src="/media/port3.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">Marelli Purchasing <br>Academy - Gamification <br> platform</span>
+                </div>
               </div>
-              <div class="col-12 col-md-4 d-flex contimg2 porto mt-3">
-                <img src="/media/port4.jpg" alt="">
+
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+                <img class="imgport"src="/media/port4.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">Compilance Training <br>per Casa Depositi e Prestiti</span>
+                </div>
               </div>
-              <div class="col-12 col-md-4 d-flex contimg2 porto mt-3">
-                <img src="/media/port5.jpg" alt="">
+
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+                <img class="imgport" src="/media/port5.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">Video based learning</span>
+                </div>
               </div>
-              <div class="col-12 col-md-4 d-flex contimg2 porto mt-3">
-                <img src="/media/port6.jpg" alt="">
+
+              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+                <img class="imgport" src="/media/port6.jpg" alt="">
+                <div class="overlay" id="overlay">
+                  <span class="text">TCSube</span>
+
+                </div>
               </div>
             </div>
           </div>
@@ -300,7 +313,7 @@
 
 {{-- BLOG --}}
 
-<div class="container-fluid " style="background-color:rgba(250, 235, 215, 0.163);">
+<div class="container-fluid" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
   <div class="row">
     <div class="col-12">
       <h2 class="text-center azienda mt-5">Blog</h2>
@@ -363,7 +376,7 @@
       <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/11/grifo-contatti-animazione.gif?id=58289" alt="" srcset="">
     </div>
     <div class="col-12 col-md-7 mt-5" style="background-color:rgb(255, 255, 255);">
-      <form>
+      <form  data-aos="fade-left">
         <div class="mb-3">
           <label for="exampleInputName" class="form-label mt-3">Nome e Cognome</label>
           <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
@@ -406,7 +419,6 @@
   </div>
 </div>
 
-  
 
 
 </x-layout>

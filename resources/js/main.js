@@ -1,6 +1,4 @@
 
-
-
 // funzione incrementa numeri 
 
 let firstSpan = document.querySelector('#first-span');
@@ -39,3 +37,47 @@ function createInterval(finalNumber, element){
 createInterval(24, firstSpan);
 createInterval(900000, secondSpan);
 createInterval(450000, thirdSpan);
+
+
+// SECONDO CAROSELLO COLLAB
+
+  $(document).ready(function() {
+    $('.slide:gt(0)').hide(); // Nascondi tutti gli slide tranne il primo
+
+    setInterval(function() {
+      $('.slide:first-child').fadeOut(1000)
+         .next('.slide').fadeIn(1000)
+         .end().appendTo('.carosello');
+    }, 3000);
+  });
+
+
+// SCROLL NAVBAR
+
+// let mainNav = document.querySelector('#mainNav');
+// let containerNav = document.querySelector('#containerNav');
+
+window.addEventListener('scroll', ()=>{
+
+    if(window.scrollY > 0){
+
+        mainNav.style.backgroundColor = '#040017';
+        containerNav.style.backgroundColor = '#040017';
+
+        mainNav.style.height = '80px';
+       
+    } else {
+
+        mainNav.style.backgroundColor = 'trasparent';
+        mainNav.style.height = '55px';
+                
+        containerNav.style.backgroundColor = 'transparent';
+        
+    }
+
+   
+
+})
+
+
+

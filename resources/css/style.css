@@ -10,6 +10,21 @@
     background-color: transparent !important;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 2;
+}
+
+#mainNav{
+  transition: 0.2s;
+}
+
+#containerNav{
+  transition: 0.2s;
+  /* filter: blur(5px); */
+}
+
+
 /* CAROSELLO */
 .grifologo{
     width: 200px;
@@ -56,7 +71,38 @@
 
 
 
-/* SECONDO CAROSELLO */
+/* SECONDO CAROSELLO COLLAB */
+
+.carosello {
+  width: 100%;
+  /* margin: 0 auto; */
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.images {
+  display: flex;
+  animation: carouselAnim 10s infinite linear;
+}
+
+@keyframes carouselAnim {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% * 10 / 20));
+  }
+}
+
+.imagn {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* FINE SECONDO CAROSELLO COLLAB */
 
 
 /* 3 IMMAGINI DIGITAL LEARNING GAMIFICATION  */
@@ -482,3 +528,56 @@ font-weight: 800;
 }
 
 
+.contport {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imgport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  height: auto;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+  /* Imposta il background desiderato */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: #fff; 
+  /* Imposta il colore del testo desiderato */
+  font-size: 24px;
+   /* Imposta la dimensione del testo desiderata */
+  /* text-align: center; */
+  position: absolute;
+  top: 5%;
+  margin-top: 50px;
+  left: 10px;
+  /* transform: translate(-50%, -50%); */
+  font-size: 22px;
+  object-fit: cover;
+
+  /* padding: 10px; */
+}
+
+.contport:hover #overlay {
+  opacity: 1;
+  /* transform: translateX(-20px); */
+   /* Imposta la distanza e la direzione di scorrimento desiderate */
+}
