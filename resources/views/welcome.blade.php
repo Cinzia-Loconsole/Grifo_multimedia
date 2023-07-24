@@ -4,7 +4,7 @@
     {{-- CAROSELLO --}}
  
   <header class=""> 
-    <div class="row">
+    <div class="row divx">
     
       <div class="col-12 text-center">
     
@@ -30,8 +30,7 @@
                       <h3 class="centered-text blackshadow" style="color:whitesmoke;">
                         partnership per arricchire  le Coporate Academy;
                       </h3>
-
-                      <button class="btn1">SCOPRI DI PIU'</button>
+                      <button class="btn1">SCOPRI</button>
                   </div>
               </div>
               
@@ -40,8 +39,7 @@
                   <div class="carousel-caption text-container data-aos="zoom-out"">
                       <h3 class="centered-text whiteshadow"> Reskilling </h3>
                       <h3 class="centered-text blackshadow" style="color:whitesmoke;">& upskilling del personale </h3>
-
-                      <button class="btn1">SCOPRI IL CASE STUDY</button>
+                      <button class="btn1">SCOPRI</button>
                   </div>
               </div>
 
@@ -61,7 +59,6 @@
                   <div class="carousel-caption text-container">
                       <h3 class="centered-text blackshadow"  style="color:whitesmoke;">Misurare il proprio</h3>
                         <h3 class="centered-text whiteshadow"> Digital Mindset</h3>
-
                       <button class="btn1">SCOPRI</button>
 
                   </div>
@@ -72,7 +69,6 @@
                   <div class="carousel-caption text-container">
                       <h3 class="centered-text blackshadow" style="color: whitesmoke;">Prevenire i rischi legati alla</h3>
                         <h3 class="centered-text whiteshadow">sicurezza delle informazioni</h3>
-
                       <button class="btn1">SCOPRI</button>
 
                   </div>
@@ -83,7 +79,6 @@
                   <div class="carousel-caption text-container">
                       <h3 class="centered-text blackshadow" style="color:whitesmoke;">Rendere coinvolgente una corporate Academy con la</h3>
                         <h3 class="whiteshadow centered-text">Gamification</h3>
-
                       <button class="btn1">SCOPRI</button>
 
                   </div>
@@ -105,7 +100,6 @@
                 <div class="carousel-caption text-container">
                     <h3 class="centered-text blackshadow" style="color:whitesmoke;">Trasformare gli eventi in esperienze interrative e </h3>
                       <h3 class="centered-text whiteshadow">coinvolgenti</h3>
-
                     <button class="btn1">SCOPRI</button>
 
                 </div>
@@ -125,10 +119,16 @@
 
     {{-- FINE CAROSELLO --}}
 
+{{-- 
+    <div id="quote">
+
+    </div> --}}
+
+
 
     {{-- CAROSELLO 2 COLLAB --}}
 
-    <div class="container">
+    <div class="container divx">
       <div class="row ">
         <div class="col-12 ">
           <div class="carousel carosello">
@@ -161,7 +161,7 @@
 
     {{-- TRE IMMAGINI DIGITAL --}}
 
-    <div class="container-fluid">
+    <div class="container-fluid divx">
       <div class="row my-5">
         <div class="col-12 col-md-4 contimg treim">
           <figure>
@@ -200,7 +200,7 @@
 
     {{-- AZIENDA --}}
 
-    <div class="container-fluid" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
+    <div class="container-fluid divx" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
       <div class="row ">
         <div class="col-12 mt-5">
           <h2 class="text-center azienda">Azienda</h2>
@@ -225,7 +225,7 @@
 
     {{-- NUMERI INCREMENTALI --}}
 
-    <div class="container-fluid" style="background-image:url(/media/BGcounter.jpg)";>
+    <div class="container-fluid divx" style="background-image:url(/media/BGcounter.jpg)";>
       <div class="row">
         <div class="col-12 col-md-4 d-flex justify-content-center contnum my-3">
           
@@ -253,67 +253,65 @@
 
       {{-- PORTFOLIO --}}
 
-      <div class="container-fluid" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
-        <div class="row ">
-          <div class="col-12">
-            <h2 class="text-center azienda mt-3">Portfolio</h2>
-          </div>
-        </div>
+  <div class="container-fluid divx" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
+    <div class="row ">
+      <div class="col-12">
+        <h2 class="text-center azienda mt-3">Portfolio</h2>
+      </div>
+      </div>
       
-    
-          <div class="container-fluid" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
-            <div class="row">
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto">
-                <img class="imgport" src="/media/port1.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">"Che sindaco sei" <br> Il game di ANCI digitale</span>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
-                <img class="imgport" src="/media/port2.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">Gamification & Recruiting</span>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
-                <img class="imgport" src="/media/port3.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">Marelli Purchasing <br>Academy - Gamification <br> platform</span>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
-                <img class="imgport"src="/media/port4.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">Compilance Training <br>per Casa Depositi e Prestiti</span>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
-                <img class="imgport" src="/media/port5.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">Video based learning</span>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
-                <img class="imgport" src="/media/port6.jpg" alt="">
-                <div class="overlay" id="overlay">
-                  <span class="text">TCSube</span>
-
-                </div>
-              </div>
+    <div class="container-fluid divx" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
+      <div class="row">
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto">
+          <img class="imgport" src="/media/port1.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">"Che sindaco sei" <br> Il game di ANCI digitale</span>
             </div>
-          </div>
-</div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
+          <img class="imgport" src="/media/port2.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">Gamification & Recruiting</span>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto ">
+          <img class="imgport" src="/media/port3.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">Marelli Purchasing <br>Academy - Gamification <br> platform</span>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+          <img class="imgport"src="/media/port4.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">Compilance Training <br>per Casa Depositi e Prestiti</span>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+          <img class="imgport" src="/media/port5.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">Video based learning</span>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex contimg2 contport porto mt-3">
+          <img class="imgport" src="/media/port6.jpg" alt="">
+            <div class="overlay" id="overlay">
+              <span class="text">TCSube</span>
+            </div>
+        </div>
+        </div>
+      </div>
+  </div>
 
 {{-- FINE PORTFOLIO --}}
 
 {{-- BLOG --}}
 
-<div class="container-fluid" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
+<div class="container-fluid divx" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
   <div class="row">
     <div class="col-12">
       <h2 class="text-center azienda mt-5">Blog</h2>
@@ -339,9 +337,7 @@
           <h5 class="card-title">Come la gamification rivoluziona il processo di recruiting e pre-screening dei candidati
           </h5>
           <p class="card-text" style="font-weight:100;">Il mercato del lavoro è in continua evoluzione e richiede alle aziende di adottare strategie innova...</p>
-        
             <a class="link" href="#"><span>Per saperne di più</span></a>
-          
         </div>
       </div>
     </div>
@@ -352,9 +348,7 @@
         <div class="card-body">
           <h5 class="card-title">Digital Onboarding: stategie e strumenti per attrarre e fidelizzare Millennials e la Generazione Z</h5>
           <p class="card-text" style="font-weight:100;">I millennials (nati tra il 1981 e il 1996) e la generazione Z (nati tra il 1997 e il 2012) sono le f...</p>
-
           <a class="link" href="#"><span>Per saperne di più</span></a>
-
         </div>
       </div>
     </div>
@@ -368,33 +362,33 @@
 
 {{-- FORM CONTATTI --}}
 
-<div class="container-fluid" style="background-color:rgba(250, 235, 215, 0.163);">
+<div class="container-fluid divx" style="background-color:rgba(250, 235, 215, 0.163);">
   <div class="row">
     <div class="col-12 col-md-5 ">
       <h2 class="scrivici p-5">Scrivici.
         <br>Ti contatteremo al più presto</h2>
       <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/11/grifo-contatti-animazione.gif?id=58289" alt="" srcset="">
     </div>
-    <div class="col-12 col-md-7 mt-5" style="background-color:rgb(255, 255, 255);">
-      <form  data-aos="fade-left">
+    <div class="col-12 col-md-5 ms-auto mt-5" style="background-color:rgb(255, 255, 255);">
+      <form class="ms-3" data-aos="fade-left">
         <div class="mb-3">
           <label for="exampleInputName" class="form-label mt-3">Nome e Cognome</label>
-          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" style="max-width: 65%;">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" style="max-width: 65%;">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputText" class="form-label">Oggetto</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp" style="max-width: 65%;">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputText" class="form-label">Messaggio</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp" style="max-width: 65%; height: 120px;">
         </div>
 
         <div class="mb-3 form-check">

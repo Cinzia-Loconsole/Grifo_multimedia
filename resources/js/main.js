@@ -57,27 +57,43 @@ createInterval(450000, thirdSpan);
 // let mainNav = document.querySelector('#mainNav');
 // let containerNav = document.querySelector('#containerNav');
 
-window.addEventListener('scroll', ()=>{
+// window.addEventListener('scroll', ()=>{
 
-    if(window.scrollY > 0){
+//     if(window.scrollY > 0){
 
-        mainNav.style.backgroundColor = '#040017';
-        containerNav.style.backgroundColor = '#040017';
+//         mainNav.style.backgroundColor = '#040017';
+//         containerNav.style.backgroundColor = '#040017';
 
-        mainNav.style.height = '80px';
+//         mainNav.style.height = '80px';
        
-    } else {
+//     } else {
 
-        mainNav.style.backgroundColor = 'trasparent';
-        mainNav.style.height = '55px';
+//         mainNav.style.backgroundColor = 'trasparent';
+//         mainNav.style.height = '55px';
                 
-        containerNav.style.backgroundColor = 'transparent';
+//         containerNav.style.backgroundColor = 'transparent';
         
-    }
+//     }
 
    
 
-})
+// })
 
 
 
+
+
+
+var category = 'happiness'
+$.ajax({
+    method: 'GET',
+    url: 'https://api.api-ninjas.com/v1/quotes?category=happiness' + category,
+    headers: { 'X-Api-Key': 'YOUR_API_KEY'},
+    contentType: 'application/json',
+    success: function(result) {
+        console.log(result);
+    },
+    error: function ajaxError(jqXHR) {
+        console.error('Error: ', jqXHR.responseText);
+    }
+});
