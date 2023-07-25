@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-trasp" id="mainNav" style="width: 100%;">
+<nav class="navbar navbar-expand-lg navbar-trasp mb-5" id="mainNav" style="width: 100%;">
   <div class="container-fluid" id="containerNav">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{route('home')}}">
       <img src="/media/grifo-logo.png" class="grifologo my-2 mx-4" alt="logo grifomultimedia" srcset="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between">
         <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
         </li>
 
 {{-- SOLUZIONI --}}
@@ -79,7 +79,7 @@
 
       @auth
       <li class="nav-item">
-        <a class="nav-link" href="#">News</a>
+        <a class="nav-link" href="{{route('indexArticle')}}">News</a>
         </li>
       @endauth
 

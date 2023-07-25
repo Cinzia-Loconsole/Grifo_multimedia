@@ -4,6 +4,10 @@
   padding-right: 0%; */
 }
 
+.divy{
+  width: 100%;
+}
+
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -197,67 +201,6 @@ h1{
 
 }
 
-
-.btnazienda{
-  position:relative;
-  display:inline-block;
-  margin:20px;
-  margin-left: 50px;
-  color: rgb(255, 255, 255);
-  border-color: rgb(183, 35, 43);
-  border-width: 5px;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: rgb(183, 35, 43);
-  border-radius:10%;
-}
-
-.btnazienda a{
-  color:whitesmoke;
-  font-weight:bold;
-  text-align: center;
-  text-decoration:none;
-  background-color:rgb(183, 35, 43);
-  display:block;
-  position:relative;
-  padding:8px;
-  
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-shadow: 0px 1px 0px #000;
-  filter: dropshadow(color=#000, offx=0px, offy=1px);
-  
-  -webkit-box-shadow:inset 0 1px 0 #1c1b1b, 0 10px 0 rgb(183, 35, 43);
-  -moz-box-shadow:inset 0 1px 0 #1c1b1b, 0 10px 0 rgb(183, 35, 43);
-  box-shadow:inset 0 1px 0 #1c1b1b, 0 10px 0 rgb(183, 35, 43);
-  
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.btnazienda a:active{
-  top:10px;
-  background-color: rgb(183, 35, 43);
-  
-  -webkit-box-shadow:inset 0 1px 0 #1c1b1b, inset 0 -3px 0 rgb(183, 35, 43);;
-  -moz-box-shadow:inset 0 1px 0 #1c1b1b, inset 0 -3pxpx 0 rgb(183, 35, 43);;
-  box-shadow:inset 0 1px 0 #1c1b1b, inset 0 -3px 0 rgb(183, 35, 43);;
-}
-
-.btnazienda:after{
-  content:"";
-  height:100%;
-  width:100%;
-  padding:4px;
-  position: absolute;
-  bottom:-16px;
-  left:-4px;
-  z-index:-1;
-  background-color: rgb(70, 14, 17);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
 
 .gif{
   width: 80%;
@@ -584,4 +527,59 @@ font-weight: 800;
   opacity: 1;
   /* transform: translateX(-20px); */
    /* Imposta la distanza e la direzione di scorrimento desiderate */
+}
+
+/* INDEX BUTTON LEGGI */
+
+.button-50 {
+  appearance: button;
+  background-color: rgb(183, 35, 43);;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow:rgb(135, 27, 32) 4px 4px 0 0,rgb(166, 32, 38) 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+  background-color: rgb(201, 42, 50);
+  font-weight: 300;
+  color: #fff;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: rgb(166, 32, 38) 2px 2px 0 0, rgb(183, 35, 43) 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
 }

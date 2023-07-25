@@ -3,7 +3,7 @@
 
     {{-- CAROSELLO --}}
  
-  <header class=""> 
+  <header class="container-fluid"> 
     <div class="row divx">
     
       <div class="col-12 text-center">
@@ -115,7 +115,7 @@
             </button>
         </div>
 
-    </header>
+  </header>
 
     {{-- FINE CAROSELLO --}}
 
@@ -209,8 +209,8 @@
         <div class="col-12 col-md-6 mt-5">
           <p class="aziendadescr">Grifo è una Pmi innovativa che da oltre venti anni sviluppa soluzioni di e-learning & gamification per l'empowerment delle persone e delle organizzazioni.</p>
           <div ontouchstart="">
-            <div class="button btnazienda">
-              <a href="">SCOPRI</a>
+            <div class="button button-50 ms-5">
+              <a href="" style="text-decoration: none; color: inherit; outline: none;">SCOPRI</a>
             </div>
           </div>
         </div>
@@ -253,15 +253,13 @@
 
       {{-- PORTFOLIO --}}
 
-  <div class="container-fluid divx" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
-    <div class="row ">
+  <div class="container-fluid divy" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
+    <div class="row">
       <div class="col-12">
         <h2 class="text-center azienda mt-3">Portfolio</h2>
-      </div>
+
       </div>
       
-    <div class="container-fluid divx" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
-      <div class="row">
         <div class="col-12 col-md-4 d-flex contimg2 contport porto">
           <img class="imgport" src="/media/port1.jpg" alt="">
             <div class="overlay" id="overlay">
@@ -306,6 +304,7 @@
         </div>
       </div>
   </div>
+
 
 {{-- FINE PORTFOLIO --}}
 

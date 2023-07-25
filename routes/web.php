@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PublicController;
+use App\Http\Controllers\ArticleController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +17,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// PUBLIC CONTROLLER
+Route::get('/', [PublicController::class,'home'])->name('home');
 
+// ARTICLE CONTROLLER
+Route::get('/create-article', [ArticleController::class, 'create'])->name('createArticle');
+
+Route::get('/show-article/{article}', [ArticleController::class, 'show'])->name('showArticle');
+
+Route::get('/index-article', [ArticleController::class, 'index'])->name('indexArticle');
+
+Route::post('/store-article',[ArticleController::class,'store'])->name('storeArticle');
