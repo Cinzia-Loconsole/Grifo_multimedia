@@ -4,7 +4,7 @@
     {{-- CAROSELLO --}}
  
    <header class="container-fluid"> 
-    <div class="row divx">
+    <div class="row d-flex justify-content-center">
     
       <div class="col-12 text-center">
     
@@ -371,7 +371,7 @@
       <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/11/grifo-contatti-animazione.gif?id=58289" alt="" srcset="">
     </div>
     <div class="col-12 col-md-5 ms-auto mt-5" style="background-color:rgb(255, 255, 255);">
-      <form class="ms-3 divy"
+      <form class="ms-3 divx"
       data-aos="fade-left" 
       >
         <div class="mb-3">

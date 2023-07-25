@@ -130,16 +130,16 @@
 {{-- SOCIAL --}}
       
       <div>          
-        <a href="" style="text-decoration: none; color:#ac4747db;">
+        <a href="" style="text-decoration: none; color:#232121db;">
           <i class=" my-3 ms-3 fa-brands fa-facebook-f"></i>
         </a>
-        <a href="" style="text-decoration: none; color:#ac4747db;">
+        <a href="" style="text-decoration: none; color:#232121db;">
           <i class="my-3 ms-3 fa-brands fa-twitter"></i>
         </a>
-        <a href="" style="text-decoration: none; color:#ac4747db;">
+        <a href="" style="text-decoration: none; color:#232121db;">
           <i class="my-3 ms-3 fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="" style="text-decoration: none; color:#ac4747db;">
+        <a href="" style="text-decoration: none; color:#232121db;">
           <i class="my-3 ms-3 fa-brands fa-instagram"></i>
         </a>
        </div>

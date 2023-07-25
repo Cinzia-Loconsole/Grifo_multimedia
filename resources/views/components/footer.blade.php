@@ -24,31 +24,31 @@
         
          <div>          
             <a href="" style="text-decoration: none;">
-              <i class=" my-3 ms-3 fa-brands fa-facebook-f fa-2x text-white"></i>
+              <i class=" my-4 ms-3 fa-brands fa-facebook-f fa-2x text-white"></i>
             </a>
             <a class="" style="text-decoration: none;" href="">
-              <i class="my-3 ms-3 fa-brands fa-twitter fa-2x text-white"></i>
+              <i class="my-4 ms-3 fa-brands fa-twitter fa-2x text-white"></i>
             </a>
             <a href="" style="text-decoration: none;">
-              <i class="my-3 ms-3 fa-brands fa-linkedin-in text-white"></i>
+              <i class="my-4 ms-3 fa-brands fa-linkedin-in fa-2x text-white"></i>
             </a>
             <a href="" style="text-decoration: none;">
-              <i class="my-3 ms-3 fa-brands fa-instagram text-white"></i>
+              <i class="my-4 ms-3 fa-brands fa-instagram fa-2x text-white"></i>
             </a>
            </div>
   
 
 
-            <h4 class="textwhite mt-3 mb-1" style="text-align: left; font-size: 19x;">Iscriviti alla newsletter e resta sempre aggiornato.</h4>
+            <h4 class="textwhite mt-3 mb-1" style="text-align: left; font-size: 19x; margin-left:77px;">Iscriviti alla newsletter e resta sempre aggiornato.</h4>
 
     
             <form>
                 <div class="mb-3" style="text-align: left;">
-                  <label for="exampleInputEmail1" class="form-label text-white" >Email*</label>
-                  <input type="email" class="form-control" style="max-width: 50%" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputEmail1" class="form-label text-white" style="margin-left:77px; margin-top:17px;">Email*</label>
+                  <input type="email" class="form-control" style="max-width: 50%; margin-left:77px;" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div style="text-align: left;">
-                    <button type="submit" class="btn btn-outline-danger">Iscriviti</button>
+                    <button type="submit" class="btn btn-outline-danger" style="margin-left:77px;">Iscriviti</button>
                 </div>
                 
             </form>
