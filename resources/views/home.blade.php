@@ -3,7 +3,7 @@
 
     {{-- CAROSELLO --}}
  
-  <header class="container-fluid"> 
+   <header class="container-fluid"> 
     <div class="row divx">
     
       <div class="col-12 text-center">
@@ -115,7 +115,7 @@
             </button>
         </div>
 
-  </header>
+  </header> 
 
     {{-- FINE CAROSELLO --}}
 
@@ -200,7 +200,7 @@
 
     {{-- AZIENDA --}}
 
-    <div class="container-fluid divx" style="margin-top:54px; background-color:rgba(250, 235, 215, 0.163);">
+    <div class="container-fluid divx" style="margin-top:54px;">
       <div class="row ">
         <div class="col-12 mt-5">
           <h2 class="text-center azienda">Azienda</h2>
@@ -215,7 +215,9 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6" data-aos="fade-left">
+        <div class="col-12 col-md-6 divy" 
+        data-aos="fade-left"
+        >
           
           <img class="gif" src="/media/azienda-animazione.gif" alt="" srcset="">
         </div>
@@ -252,11 +254,11 @@
 
 
       {{-- PORTFOLIO --}}
-
-  <div class="container-fluid divy" data-aos="fade-up" style="background-color:rgba(250, 235, 215, 0.163);">
-    <div class="row">
+<div class="container-fluid" style="background-color:rgba(250, 235, 215, 0.163);">
+  <div class="container" data-aos="fade-up" ">
+    <div class="row justify-content-center">
       <div class="col-12">
-        <h2 class="text-center azienda mt-3">Portfolio</h2>
+        <h2 class="text-center azienda mt-3 mb-5">Portfolio</h2>
 
       </div>
       
@@ -301,9 +303,9 @@
               <span class="text">TCSube</span>
             </div>
         </div>
-        </div>
-      </div>
+    </div>
   </div>
+</div>
 
 
 {{-- FINE PORTFOLIO --}}
@@ -361,7 +363,7 @@
 
 {{-- FORM CONTATTI --}}
 
-<div class="container-fluid divx" style="background-color:rgba(250, 235, 215, 0.163);">
+<div class="container-fluid" style="background-color:rgba(250, 235, 215, 0.163);">
   <div class="row">
     <div class="col-12 col-md-5 ">
       <h2 class="scrivici p-5">Scrivici.
@@ -369,25 +371,27 @@
       <img src="https://www.grifomultimedia.it/wp-content/uploads/2019/11/grifo-contatti-animazione.gif?id=58289" alt="" srcset="">
     </div>
     <div class="col-12 col-md-5 ms-auto mt-5" style="background-color:rgb(255, 255, 255);">
-      <form class="ms-3" data-aos="fade-left">
+      <form class="ms-3 divy"
+      data-aos="fade-left" 
+      >
         <div class="mb-3">
           <label for="exampleInputName" class="form-label mt-3">Nome e Cognome</label>
-          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" style="max-width: 65%;">
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" style="max-width: 65%;">
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputText" class="form-label">Oggetto</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp" style="max-width: 65%;">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputText" class="form-label">Messaggio</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp" style="max-width: 65%; height: 120px;">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="textHelp" style="height: 120px;">
         </div>
 
         <div class="mb-3 form-check">
